@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Ter um cozinheiro",
-                afirmacao: "alface, tomate, salsicha, hamburguer, pão, etc..."
+                afirmacao: "Ter a cozinha toda suja e com gordura"
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Ter bebidas na geladeira",
-                afirmacao: "As bebidas também tem que comprar, assim como os ingredientes para o lanche,"
+                afirmacao: "alface, tomate, salsicha, hamburguer, pão, etc..."
             },
             {
                 texto: "O cliente abre o freezer e pega uma coca-cola e depois paga",
-                afirmacao: "para comprar as bebidas, precisa ir na distribuidora e pedir para entregar as cocas-colas."
+                afirmacao: "de soja, ja que as frituras dos hamburguers e da chapa são todas horriveis"
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Não, as pessoas comem no chão.",
-                afirmacao: "Sim, nós compramos as cadeiras de plásticos e as mesas da Skol "
+                afirmacao: "As bebidas também tem que comprar, assim como os ingredientes para o lanche,"
             },
             {
                 texto: "Os clientes comem em um banheiro privativo de luxo",
-                afirmacao: "essas mesas são as melhores do Brasil todo, assim como o lanhce DogDuplo"
+                afirmacao: "de óleo de soja. Para ir ao banheiro, precisa passar pela cozinha,"
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Não eles comem como um elefante e saiem fazendo fezes pelo restaurante",
-                afirmacao: "Sim, é importante que a regra do estabelecimento seja seguida"
+                afirmacao: "para comprar as bebidas, precisa ir na distribuidora e pedir para entregar as cocas-colas."
             },
             {
                 texto: "Eles vão em um iate e depois voltam para comer, tiveram que aprender as regras no iate.",
-                afirmacao: "e seja muito bem respeitada para zelar nosso comprometimento com a empresa e todos os clientes"
+                afirmacao: "lavar os pés e as mãos para não entrar na cozinha sujo."
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Temos mais de um cozinheiros, eles são bem harmônicos",
-                afirmacao: "Sim temos 5 cozinheiros chefes"
+                afirmacao: "As nossas mesas são de alto nivel sendo elas, mesas de plastico com a logomarca da skol estampada"
             },
             {
                 texto: "Os nossos cozinheiros não sabem fazer o lanche, mas logo eles pegam o jeito",
-                afirmacao: "muito bem qualificados e mandam muito bem na cozinha. "
+                afirmacao: "E o mais importante de todos até agora, sempre ajudar os cozinheiros a preparar sua própria comida com as mãos sujas depois de sair do banheiro"
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Nessa empresa você encontra a melhor qualidade devida...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
